@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94D045DC1CC0AED100E7C9BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D045DB1CC0AED100E7C9BC /* main.m */; };
+		94D045DF1CC0AED100E7C9BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D045DE1CC0AED100E7C9BC /* AppDelegate.m */; };
+		94D045E21CC0AED100E7C9BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D045E11CC0AED100E7C9BC /* ViewController.m */; };
+		94D045E51CC0AED100E7C9BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D045E31CC0AED100E7C9BC /* Main.storyboard */; };
+		94D045E71CC0AED100E7C9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D045E61CC0AED100E7C9BC /* Assets.xcassets */; };
+		94D045EA1CC0AED100E7C9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D045E81CC0AED100E7C9BC /* LaunchScreen.storyboard */; };
+		94D045F21CC0AF7500E7C9BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D045F11CC0AF7500E7C9BC /* AVFoundation.framework */; };
+		94D045F41CC0AF8000E7C9BC /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D045F31CC0AF8000E7C9BC /* Spotify.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94D045D71CC0AED100E7C9BC /* Mootify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mootify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D045DB1CC0AED100E7C9BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94D045DD1CC0AED100E7C9BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94D045DE1CC0AED100E7C9BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94D045E01CC0AED100E7C9BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94D045E11CC0AED100E7C9BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94D045E41CC0AED100E7C9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94D045E61CC0AED100E7C9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94D045E91CC0AED100E7C9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94D045EB1CC0AED100E7C9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D045F11CC0AF7500E7C9BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		94D045F31CC0AF8000E7C9BC /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
+		94D045F61CC0B0DD00E7C9BC /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		94D045F71CC4B08D00E7C9BC /* Mootify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Mootify.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D045D41CC0AED100E7C9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D045F21CC0AF7500E7C9BC /* AVFoundation.framework in Frameworks */,
+				94D045F41CC0AF8000E7C9BC /* Spotify.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94D045CE1CC0AED100E7C9BC = {
+			isa = PBXGroup;
+			children = (
+				94D045F51CC0AF8400E7C9BC /* Framework */,
+				94D045D91CC0AED100E7C9BC /* Mootify */,
+				94D045D81CC0AED100E7C9BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94D045D81CC0AED100E7C9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D045D71CC0AED100E7C9BC /* Mootify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D045D91CC0AED100E7C9BC /* Mootify */ = {
+			isa = PBXGroup;
+			children = (
+				94D045F71CC4B08D00E7C9BC /* Mootify.entitlements */,
+				94D045DD1CC0AED100E7C9BC /* AppDelegate.h */,
+				94D045DE1CC0AED100E7C9BC /* AppDelegate.m */,
+				94D045E01CC0AED100E7C9BC /* ViewController.h */,
+				94D045E11CC0AED100E7C9BC /* ViewController.m */,
+				94D045E31CC0AED100E7C9BC /* Main.storyboard */,
+				94D045E61CC0AED100E7C9BC /* Assets.xcassets */,
+				94D045E81CC0AED100E7C9BC /* LaunchScreen.storyboard */,
+				94D045EB1CC0AED100E7C9BC /* Info.plist */,
+				94D045DA1CC0AED100E7C9BC /* Supporting Files */,
+				94D045F61CC0B0DD00E7C9BC /* config.h */,
+			);
+			path = Mootify;
+			sourceTree = "<group>";
+		};
+		94D045DA1CC0AED100E7C9BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D045DB1CC0AED100E7C9BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D045F51CC0AF8400E7C9BC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				94D045F31CC0AF8000E7C9BC /* Spotify.framework */,
+				94D045F11CC0AF7500E7C9BC /* AVFoundation.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D045D61CC0AED100E7C9BC /* Mootify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D045EE1CC0AED100E7C9BC /* Build configuration list for PBXNativeTarget "Mootify" */;
+			buildPhases = (
+				94D045D31CC0AED100E7C9BC /* Sources */,
+				94D045D41CC0AED100E7C9BC /* Frameworks */,
+				94D045D51CC0AED100E7C9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mootify;
+			productName = Mootify;
+			productReference = 94D045D71CC0AED100E7C9BC /* Mootify.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D045CF1CC0AED100E7C9BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wu Hengmin";
+				TargetAttributes = {
+					94D045D61CC0AED100E7C9BC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T3W8PQ5ZQ2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.OMC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 94D045D21CC0AED100E7C9BC /* Build configuration list for PBXProject "Mootify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94D045CE1CC0AED100E7C9BC;
+			productRefGroup = 94D045D81CC0AED100E7C9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D045D61CC0AED100E7C9BC /* Mootify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D045D51CC0AED100E7C9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D045EA1CC0AED100E7C9BC /* LaunchScreen.storyboard in Resources */,
+				94D045E71CC0AED100E7C9BC /* Assets.xcassets in Resources */,
+				94D045E51CC0AED100E7C9BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D045D31CC0AED100E7C9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D045E21CC0AED100E7C9BC /* ViewController.m in Sources */,
+				94D045DF1CC0AED100E7C9BC /* AppDelegate.m in Sources */,
+				94D045DC1CC0AED100E7C9BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94D045E31CC0AED100E7C9BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D045E41CC0AED100E7C9BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94D045E81CC0AED100E7C9BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D045E91CC0AED100E7C9BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94D045EC1CC0AED100E7C9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94D045ED1CC0AED100E7C9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D045EF1CC0AED100E7C9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mootify/Mootify.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Mootify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moonagic.Mootify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94D045F01CC0AED100E7C9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mootify/Mootify.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Mootify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.moonagic.Mootify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D045D21CC0AED100E7C9BC /* Build configuration list for PBXProject "Mootify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D045EC1CC0AED100E7C9BC /* Debug */,
+				94D045ED1CC0AED100E7C9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D045EE1CC0AED100E7C9BC /* Build configuration list for PBXNativeTarget "Mootify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D045EF1CC0AED100E7C9BC /* Debug */,
+				94D045F01CC0AED100E7C9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D045CF1CC0AED100E7C9BC /* Project object */;
+}
